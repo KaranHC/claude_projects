@@ -1,0 +1,9 @@
+node_modules/
+package-lock.json
+*.docx
+output/
+.claude/settings*
+__pycache__/
+*.pyc
+.venv/
+venv/
