@@ -44,4 +44,4 @@ python resume_generator.py "Dario Amodei"
 
 ## Output
 
-The generated resume is saved to `outputs/resume/dario-amodei.docx`
+The generated resume is saved to `output/resume/dario-amodei.docx`
