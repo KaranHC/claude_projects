@@ -1,0 +1,42 @@
+{
+  "allowed_domains": [
+    "www.tickertape.in",
+    "api.stocktwits.com",
+    "www.screener.in",
+    "www.moneycontrol.com",
+    "trendlyne.com"
+  ],
+  "rate_limit": {
+    "delay_seconds": 3,
+    "max_retries": 2
+  },
+  "agent": {
+    "model": "sonnet",
+    "max_turns": 25,
+    "permission_mode": "acceptEdits"
+  },
+  "directories": {
+    "data": "data",
+    "sessions": "sessions",
+    "logs": "logs",
+    "agents": "agents",
+    "scripts": "scripts"
+  },
+  "analysis_weights": {
+    "technical": 0.25,
+    "sentiment": 0.15,
+    "fundamental": 0.25,
+    "financial": 0.15,
+    "peer": 0.10,
+    "news": 0.10
+  },
+  "skills": [
+    "scraping",
+    "financials",
+    "peer-analysis",
+    "news-events",
+    "institutional",
+    "risk-management",
+    "chart-patterns"
+  ]
+}
